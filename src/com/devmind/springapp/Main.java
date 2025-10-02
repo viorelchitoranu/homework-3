@@ -16,6 +16,7 @@ public class Main {
 
         Dog d = (Dog) context.getBean("dog");
         System.out.println(d.makeSound());
+        System.out.println(d.getAnimalName());
 
     }
 }
